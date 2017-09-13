@@ -2,7 +2,7 @@
 
 1. Make a new file called "index.html"
 2. Copy the following code:
-
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,5 +13,6 @@
 <p>This is a paragraph</p>
 </body>
 </html>
+```
 
 3. Try to look up some tutorials on https://www.w3schools.com/html/ or ask any one of the creators of 2D4U for help.
