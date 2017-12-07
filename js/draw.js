@@ -8,7 +8,7 @@ var drawModule = (function () {
   }
 
   var pizza = function(x, y) {
-        ctx.fillStyle = 'orange';
+        ctx.fillStyle = 'red';
         ctx.fillRect(x*snakeSize, y*snakeSize, snakeSize, snakeSize);
         ctx.fillStyle = 'red';
         ctx.fillRect(x*snakeSize+1, y*snakeSize+1, snakeSize-2, snakeSize-2);
@@ -51,7 +51,7 @@ var drawModule = (function () {
       if (snakeX == -1 || snakeX == w/snakeSize || snakeY == -1 || snakeY == h/snakeSize || checkCollision(snakeX, snakeY, snake)) {
           //restart game
           btn.removeAttribute('disabled', true);
-
+          score = 0;
           ctx.clearRect(0,0,w,h);
           gameloop = clearInterval(gameloop);
           return;          
