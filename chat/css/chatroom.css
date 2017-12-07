@@ -6,7 +6,7 @@ body {
   background-color: #d2d2d2;
   height: 700px;
   width: 1000px;
-  align: center;
+  position: center;
   border-style: solid;
 }
 
@@ -15,9 +15,9 @@ body {
   border-stlye: solid;
 }
 
-p.left {align: left;}
-p.right {align: right;}
-p.center {align: center;}
+p.left {position: left;}
+p.right {position: right;}
+p.center {position: center;}
 
 button {
  font-size: 18px;
