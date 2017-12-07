@@ -20,6 +20,7 @@ p.center {text-align: center;}
 p.righttop {
   text-align: right;
   line-height: 80px;
+  display: inline;
 }
 
 button {
