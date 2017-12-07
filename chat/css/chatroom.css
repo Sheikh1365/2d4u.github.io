@@ -6,19 +6,20 @@ body {
   background-color: #d2d2d2;
   height: 700px;
   width: 1000px;
-  background-position: center center;
+  align: center;
+  border-style: solid;
 }
 
 #header {
   background-color: #a1d1ed;
+  border-stlye: solid;
 }
 
-div.dotted {border-style: dotted;}
-div.dashed {border-style: dashed;}
-div.solid {border-style: solid;}
-div.double {border-style: double;}
-div.groove {border-style: groove;}
-div.ridge {border-style: ridge;}
-div.inset {border-style: inset;}
-div.outset {border-style: outset;}
-div.
+p.left {align: left;}
+p.right {align: right;}
+p.center {align: center;}
+
+button {
+ font-size: 18px;
+ background-color: lightgray;
+}
