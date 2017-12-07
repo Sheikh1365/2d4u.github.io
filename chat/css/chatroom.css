@@ -15,7 +15,7 @@ body {
   border-stlye: solid;
 }
 
-p.left {position: left;}
+p.left {position: absolute;}
 p.right {position: right;}
 p.center {position: center;}
 
