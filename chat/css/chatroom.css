@@ -15,8 +15,8 @@ body {
   border-stlye: solid;
 }
 
-p.right {position: absolute;}
-p.center {margin: auto;}
+p.right {text-align: right;}
+p.center {text-align: center;}
 
 button {
  font-size: 18px;
