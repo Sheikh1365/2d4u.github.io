@@ -8,9 +8,9 @@ var drawModule = (function () {
   }
 
   var pizza = function(x, y) {
-        ctx.fillStyle = 'red';
-        ctx.fillRect(x*snakeSize, y*snakeSize, snakeSize, snakeSize);
         ctx.fillStyle = 'darkred';
+        ctx.fillRect(x*snakeSize, y*snakeSize, snakeSize, snakeSize);
+        ctx.fillStyle = 'red';
         ctx.fillRect(x*snakeSize+1, y*snakeSize+1, snakeSize-2, snakeSize-2);
   }
 
