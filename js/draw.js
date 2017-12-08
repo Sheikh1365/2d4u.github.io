@@ -16,8 +16,8 @@ var drawModule = (function () {
 
   var scoreText = function() {
     var score_text = "Score: " + score;
-    ctx.fillStyle = 'blue';
-    ctx.fillText(score_text, 145, h-5);
+    ctx.fillStyle = 'black';
+    ctx.fillText(score_text, 145, h-18);
   }
 
   var drawSnake = function() {
@@ -75,7 +75,6 @@ var drawModule = (function () {
         } 
         
         pizza(food.x, food.y); 
-        scoreText();
   }
 
   var createFood = function() {
