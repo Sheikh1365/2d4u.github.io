@@ -3,6 +3,7 @@ body {
 }
 
 #chatbox {
+  position: fixed;
   background-color: #d2d2d2;
   height: 700px;
   width: 1000px;
@@ -13,6 +14,14 @@ body {
 #header {
   background-color: #a1d1ed;
   border-stlye: solid;
+}
+
+#footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #a1d1ed;
 }
 
 p.right {text-align: right;}
