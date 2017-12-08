@@ -10,7 +10,7 @@ var drawModule = (function () {
   var pizza = function(x, y) {
         ctx.fillStyle = 'red';
         ctx.fillRect(x*snakeSize, y*snakeSize, snakeSize, snakeSize);
-        ctx.fillStyle = 'red';
+        ctx.fillStyle = 'darkred';
         ctx.fillRect(x*snakeSize+1, y*snakeSize+1, snakeSize-2, snakeSize-2);
   }
 
@@ -29,7 +29,7 @@ var drawModule = (function () {
   }
     
   var paint = function(){
-      ctx.fillStyle = 'lightgrey';
+      ctx.fillStyle = 'black';
       ctx.fillRect(0, 0, w, h);
       ctx.strokeStyle = 'black';
       ctx.strokeRect(0, 0, w, h);
