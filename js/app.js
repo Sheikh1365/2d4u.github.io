@@ -10,6 +10,36 @@ btn.addEventListener("click", function(){ drawModule.init();});
 
         switch(keyCode) {
         
+	// WASD keys
+	case 87: 
+          if (direction != 'down') {
+            direction = 'up';
+          }
+          console.log('up'); 
+          break;
+			
+	case 87: 
+          if (direction != 'right') {
+            direction = 'left';
+          }
+          console.log('left'); 
+          break;
+		
+	case 87: 
+          if (direction != 'up') {
+            direction = 'down';
+          }
+          console.log('down'); 
+          break;
+			
+	case 87: 
+          if (direction != 'left') {
+            direction = 'right';
+          }
+          console.log('right'); 
+          break;
+		
+	// arrow keys
         case 37: 
           if (direction != 'right') {
             direction = 'left';
