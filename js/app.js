@@ -12,6 +12,11 @@ btn.addEventListener("click", function(){
         keyCode = event.keyCode;
 
         switch(keyCode) {
+	
+	// Space to start
+	case 32:
+	drawModule.init();
+	break;
         
 	// WASD keys
 	case 65: 
