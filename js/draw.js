@@ -10,7 +10,8 @@ var drawModule = (function () {
   var pizza = function(x, y) {
         ctx.fillStyle = 'darkred';
         ctx.fillRect(x*snakeSize, y*snakeSize, snakeSize, snakeSize);
-        ctx.fillStyle = 'red';
+
+    ctx.fillStyle = 'red';
         ctx.fillRect(x*snakeSize+1, y*snakeSize+1, snakeSize-2, snakeSize-2);
   }
 
@@ -53,6 +54,7 @@ var drawModule = (function () {
         if(snakeX == food.x && snakeY == food.y) {
           var tail = {x: snakeX, y: snakeY}; //Create a new head instead of moving the tail
           score ++;
+          displayScore(score);
           
           createFood(); //Create new food
         } else {
