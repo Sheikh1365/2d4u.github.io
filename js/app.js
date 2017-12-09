@@ -4,6 +4,7 @@ var btn = document.getElementById('btn');
 btn.addEventListener("click", function(){ 
 	drawModule.init();
 	score = 0;
+	displayScore(score);
 });
 
 	document.onkeydown = function(event) {
@@ -16,6 +17,8 @@ btn.addEventListener("click", function(){
 	// Space to start
 	case 32:
 	drawModule.init();
+	score = 0;
+	displayScore(score);
 	break;
         
 	// WASD keys
