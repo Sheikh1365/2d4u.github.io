@@ -4,7 +4,7 @@ var btn = document.getElementById('btn');
 btn.addEventListener("click", function(){ 
 	drawModule.init();
 	score = 0;
-	displayScore(score);
+	document.getElementById("score").innerHTML = "Score: 0";
 });
 
 	document.onkeydown = function(event) {
@@ -18,7 +18,7 @@ btn.addEventListener("click", function(){
 	case 32:
 	drawModule.init();
 	score = 0;
-	displayScore(score);
+	document.getElementById("score").innerHTML = "Score: 0";
 	break;
         
 	// WASD keys
