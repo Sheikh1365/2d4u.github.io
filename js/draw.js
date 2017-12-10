@@ -14,23 +14,6 @@ var drawModule = (function () {
     ctx.fillStyle = 'red';
         ctx.fillRect(x*snakeSize+1, y*snakeSize+1, snakeSize-2, snakeSize-2);
   }
-  
-  //obstacles
-  //var obstacleBlock = function(x, y) {
-  //ctx.fillStyle = 'darkblue';
-  //ctx.fillRect(x*snakeSize, y*snakeSize, snakeSize, snakeSize);
-  //ctx.fillStyle = 'lightblue';
-  //ctx.fillRect(x*snakeSize+1, y*snakeSize+1, snakeSize-2, snakeSize-2);
-//}
-
-//var createObstacle = function() {
-      //obstacle = {
-        //x: Math.floor((Math.random() * 30) + 1),
-        //y: Math.floor((Math.random() * 30) + 1)
-      //}
-          //obstacleBlock(obstacle.x, obstacle.y); 
-  //}
-
 
   var drawSnake = function() {
       var length = 4;
@@ -60,7 +43,7 @@ var drawModule = (function () {
       } else if(direction == 'down') { 
         snakeY++; }
 
-      if (snakeX == -1 || snakeX == w/snakeSize || snakeY == -1 || snakeY == h/snakeSize || checkCollision(snakeX, snakeY, snake) || obstacle.x===snakeX && obstacle.y === snakeY || obstacle.y === snakeY && obstacle.x===snakeX) {
+      if (snakeX == -1 || snakeX == w/snakeSize || snakeY == -1 || snakeY == h/snakeSize || checkCollision(snakeX, snakeY, snake)) {
           //restart game
           btn.removeAttribute('disabled', true);
           ctx.clearRect(0,0,w,h);
@@ -71,9 +54,6 @@ var drawModule = (function () {
         if(snakeX == food.x && snakeY == food.y) {
           var tail = {x: snakeX, y: snakeY}; //Create a new head instead of moving the tail
           score ++;
-          //if score == 5 {
-            //createObstacle(); 
-          //}
           displayScore(score);
           
           createFood(); //Create new food
