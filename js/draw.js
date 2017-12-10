@@ -54,6 +54,9 @@ var drawModule = (function () {
         if(snakeX == food.x && snakeY == food.y) {
           var tail = {x: snakeX, y: snakeY}; //Create a new head instead of moving the tail
           score ++;
+          if score == 5 {
+            createObstacle(); 
+          }
           displayScore(score);
           
           createFood(); //Create new food
