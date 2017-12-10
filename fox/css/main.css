@@ -1,6 +1,3 @@
-html {
-    cursor: url("images/cursor.cur"), default;
-   }
     header {
       position: fixed;
       width: 100%;
@@ -44,7 +41,7 @@ html {
 }
 
 #input {
-  background-image: url('fox/css/searchicon.png');
+  background-image: url('https://www.w3schools.com/css/searchicon.png');
   background-position: 10px 12px;
   background-repeat: no-repeat;
   width: 100%;
