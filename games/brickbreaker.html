@@ -9,7 +9,7 @@
     </style>
 </head>
 <body>
-<canvas id="myCanvas" width="910" height="320"></canvas>
+<canvas id="myCanvas" width="910" height="640"></canvas>
 
 <script>
     ////I did not make this code I did edit it though. I found it on https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Finishing_up
@@ -26,10 +26,10 @@ var paddleWidth = 75;
 var paddleX = (canvas.width-paddleWidth)/2;
 var rightPressed = false;
 var leftPressed = false;
-var brickRowCount = 10;
+var brickRowCount = 5;
 var brickColumnCount = 3;
-var brickWidth = 75;
-var brickHeight = 20;
+var brickWidth = 150;
+var brickHeight = 40;
 var brickPadding = 10;
 var brickOffsetTop = 30;
 var brickOffsetLeft = 30;
@@ -179,7 +179,6 @@ function draw() {
 }
 
 draw();
-</script>
-
+    </script>
 </body>
 </html>
