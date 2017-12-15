@@ -83,7 +83,7 @@ function collisionDetection() {
                     b.status = 0;
                     score++;
                     if(score == brickRowCount*brickColumnCount) {
-                        alert("YOU WIN, CONGRATS!");
+                        alert("You won! Next level?");
                         document.location.reload();
                     }
                 }
@@ -182,7 +182,9 @@ function draw() {
 
 draw();
     </script>
-    <center><p>I did not design this myself but I edited alot of the code. If you want the original link go to the github file- fires45 </p></center>
-    <center><h1>Breakout</h1></center>
+    <center><p>I did not design this myself but I edited alot of the code. If you want the original link go to the github file- fires45 </p>
+    <h1>Breakout</h1>
+        <form action="/games/breakout2">
+            <button>Level 2</button></form></center>
 </body>
 </html>
