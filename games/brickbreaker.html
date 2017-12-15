@@ -10,7 +10,7 @@
     </style>
 </head>
 <body>
-<canvas id="myCanvas" width="1500" height="640"></canvas>
+<canvas id="myCanvas" width="480" height="320"></canvas>
 
 <script>
     ////I did not make this code I did edit it though. I found it on https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Finishing_up
@@ -27,14 +27,13 @@ var paddleWidth = 75;
 var paddleX = (canvas.width-paddleWidth)/2;
 var rightPressed = false;
 var leftPressed = false;
-var brickRowCount = 20;
-var brickColumnCount = 6;
+var brickRowCount = 5;
+var brickColumnCount = 3;
 var brickWidth = 75;
 var brickHeight = 20;
-var brickPadding = 20;
-var brickOffsetTop = 45;
-var brickOffsetLeft = 45;
-var brickOffsetRight = 45;
+var brickPadding = 10;
+var brickOffsetTop = 30;
+var brickOffsetLeft = 30;
 var score = 0;
 var lives = 3;
 
