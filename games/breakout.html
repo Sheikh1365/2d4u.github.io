@@ -54,12 +54,11 @@ document.addEventListener("mousemove", mouseMoveHandler, false);
 function keyDownHandler(e) {
     if(e.keyCode == 39) {
         rightPressed = true;
-    }
+    
     else if(e.keyCode == 37) {
         leftPressed = true;
     }
-}
-function keyUpHandler(e) {
+}function keyUpHandler(e) {
     if(e.keyCode == 39) {
         rightPressed = false;
     }
@@ -83,7 +82,7 @@ function collisionDetection() {
                     b.status = 0;
                     score++;
                     if(score == brickRowCount*brickColumnCount) {
-                        alert("You won! Next level?"<a href="2d4u.github.io/games/breakout2">Level 2</a>);
+                        alert("You won! Next level?");
                         document.location.reload();
                     }
                 }
@@ -112,7 +111,7 @@ function drawBricks() {
                 var brickX = (r*(brickWidth+brickPadding))+brickOffsetLeft;
                 var brickY = (c*(brickHeight+brickPadding))+brickOffsetTop;
                 bricks[c][r].x = brickX;
-                bricks[c][r].y = brickY;
+                bricks[c][r].y = brickY
                 ctx.beginPath();
                 ctx.rect(brickX, brickY, brickWidth, brickHeight);
                 ctx.fillStyle = "#0095DD";
@@ -121,7 +120,7 @@ function drawBricks() {
             }
         }
     }
-}
+
 function drawScore() {
     ctx.font = "16px Arial";
     ctx.fillStyle = "#0095DD";
@@ -130,7 +129,7 @@ function drawScore() {
 function drawLives() {
     ctx.font = "16px Arial";
     ctx.fillStyle = "#0095DD";
-    ctx.fillText("Lives: "+lives, canvas.width-65, 20);
+    ctx.fillText("Lives: "+lives, canvas.width-65, 20)
 }
 
 function draw() {
