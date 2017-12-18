@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Colorful Circles</title>
+</head>
+<body>
+<script>
+var WH = 1270 ;
+draw = function() {
+    ellipse(mouseX, mouseY, WH, WH);
+    fill(mouseX, mouseY, mouseY);
+    if(mouseX<10000){
+        WH = WH - 2;
+    }
+    if(WH<20){
+        WH = WH + 1270;
+    }
+};
+</script>
+
+</body>
+</html>
