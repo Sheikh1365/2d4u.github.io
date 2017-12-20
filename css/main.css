@@ -17,6 +17,15 @@
       margin: 0 0;
       position: fixed;
     }
+    #rightnav {
+      background-color: black;
+      width: 200px;
+      height: 1000px;
+      float: right;
+      padding: 0px;
+      margin: 0 0;
+      position: fixed;
+    }
     button {
       font-family: verdana;
       font-size: 14px;
