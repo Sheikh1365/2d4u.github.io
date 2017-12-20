@@ -20,3 +20,9 @@
       text-align: center;
       background-color: lightgray;
 }
+#rightnav {
+      background-color: black;
+      width: 200px;
+      height: 1000px;
+      float: right;
+}
