@@ -15,7 +15,6 @@
       float: left;
       padding: 0px;
       margin: 0 0;
-      position: fixed;
     }
     #rightnav {
       background-color: black;
@@ -24,7 +23,6 @@
       float: right;
       padding: 0px;
       margin: 0 0;
-      position: fixed;
     }
     button {
       font-family: verdana;
