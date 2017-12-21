@@ -1,18 +1,21 @@
     button {
       font-family: verdana;
       font-size: 35px;
+      font-color: white;
     }
     h1 {
       font-family: verdana;
       font-size: 80px;
+      font-color: white;
     }
     h2 {
       font-family: verdana;
       font-size: 50px;
+      font-color: white;
     }
     body {
       background-image: url("https://2d4u.github.io/images/2d4u-background.png");
     }
     img {
-      font-size: 30px;
+      font-size: 50px;
     }
