@@ -11,5 +11,8 @@
       font-size: 50px;
     }
     body {
-      background-image: url("https://2d4u.github.io/images.2d4u-background.png");
+      background-image: url("https://2d4u.github.io/images/2d4u-background.png");
+    }
+    img {
+      font-size: 30px;
     }
