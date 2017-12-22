@@ -12,11 +12,19 @@
         width:1000px;
         height:700px;
         background-color:#0D1D56;
+      }
     </style>
   </head>
 <body>
          <a href="https://www.youtube.com/channel/UCMO5BiLth7BVJMzFrJBQ7UQ">
-      <img src="/fires45/images/YouTube-logo-play-icon.png" width="80" height="60"></a>
+      <img src="/fires45/images/YouTube-logo-play-icon.png" width="80" height="60"></a>  
+  <canvas id="yup" width="220" height="80" style="border:10px solid #0030bf;"></canvas>
+  <script>
+    var c = document.getElementById("yup");
+    var ctx = c.getContext("2d);
+    ctx.font = "30px Comic Sans";
+    ctx.fillText("'Creativity'",15,45);
+  </script>
   <form action="/fires45/oldwebsite">
          <button>My old website</button> 
     
