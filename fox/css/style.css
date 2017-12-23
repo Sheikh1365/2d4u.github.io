@@ -38,7 +38,7 @@
        padding: 10px;
     }
     .btn {
-       background-color: #a35923;
+       background:rgba(181,126,86,0.5);
        border: none;
        color: white;
        padding: 8px 16px;
@@ -52,11 +52,11 @@
        cursor: pointer;
     }
     .button {
-       background-color: #d8762f; 
+       background:rgba(209,147,102,0.5);
        color: black; 
     }
 
     .button:hover {
-       background-color: #a35923;
+       background:rgba(181,126,86,0.5);
        color: white;
     }
