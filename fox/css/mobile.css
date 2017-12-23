@@ -20,10 +20,10 @@
     }
     h1 {
       font-family: 'Ubuntu', sans-serif;
+      font-size: 4em;
     }
     body {
       background-color: #F4AD42;
-      content-align: center;
     }
     h2 {
       font-size: 16px;
@@ -35,6 +35,7 @@
        border-radius: 16px;
        width: 100%;
        padding: 40px;
+       text-align: center;
     }
     .btn {
        background:rgba(181,126,86,0.5);
