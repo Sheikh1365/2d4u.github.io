@@ -50,7 +50,7 @@
        -webkit-transition-duration: 0.4s;
        transition-duration: 0.4s;
        cursor: pointer;
-       border 2px solid #b57e56;
+       border: 2px solid #b57e56;
     }
     .button {
        background:rgba(209,147,102,0.5);
