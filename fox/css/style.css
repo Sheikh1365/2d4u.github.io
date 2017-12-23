@@ -68,8 +68,17 @@
        background:rgba(209,147,102,0.5);
        color: black; 
     }
-
     .button:hover {
        background:rgba(181,126,86,0.5);
        color: white;
+    }
+    .img {
+       width: 100px;
+       height: 100px;
+       -webkit-transition-duration: 0.4s;
+       transition-duration: 0.4s;
+    }
+    .img:hover {
+       width: 108px;
+       height: 108px;
     }
