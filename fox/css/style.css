@@ -1,4 +1,4 @@
-    @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
     
     button {
       font-family: 'Ubuntu', sans-serif;
@@ -37,4 +37,9 @@
       background-color: lightgray;
       color: black;
       text-align: center;
+    }
+    .box {
+       background:rgba(244,173,66,0.5);
+       border: 1px solid #ccc !important;
+       border-radius: 16px;
     }
