@@ -38,7 +38,7 @@
        padding: 10px;
     }
     .btn {
-       background-color: #fccf8a;
+       background-color: #a35923;
        border: none;
        color: white;
        padding: 8px 16px;
@@ -52,12 +52,11 @@
        cursor: pointer;
     }
     .button {
-       background-color: white; 
+       background-color: #d8762f; 
        color: black; 
-       border: 2px solid #fccf8a;
     }
 
     .button:hover {
-       background-color: #fccf8a;
+       background-color: #a35923;
        color: white;
     }
