@@ -51,3 +51,29 @@
     body {
       background-color: #5097e8;
     }
+    .button {
+    background-color: #5097e8; 
+    border: none;
+    color: #515151;
+    padding: 4px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+    cursor: pointer;
+    display: block;
+}
+
+.btn {
+    background-color: #5097e8; 
+    color: #515151; 
+    border: 2px solid #5097e8;
+}
+
+.btn:hover {
+    background-color: #67adfc;
+    color: white;
+}
