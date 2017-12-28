@@ -17,6 +17,7 @@
       float: left;
       padding: 0px;
       margin: 0 0;
+      border-radius: 10px;
     }
     #rightnav {
       background-color: #515151;
