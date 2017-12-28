@@ -11,7 +11,7 @@
       color: white;
     }
     #leftnav {
-      background-color: black;
+      background-color: #515151;
       width: 200px;
       height: 1000px;
       float: left;
@@ -19,7 +19,7 @@
       margin: 0 0;
     }
     #rightnav {
-      background-color: black;
+      background-color: #515151;
       width: 200px;
       height: 1000px;
       float: right;
@@ -34,14 +34,17 @@
     h3 {
       font-family: 'Exo 2', sans-serif;
       font-size: 40px;
+      color: #515151;
     }
     h4 {
       font-family: 'Exo 2', sans-serif;
       font-size: 20px;
+      color: #515151;
     }
     p {
       font-size: 16px;
       font-family: 'Exo 2', sans-serif;
+      color: #515151;
     }
     body {
       background-color: #5097e8;
