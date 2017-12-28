@@ -51,8 +51,8 @@
     body {
       background-color: #5097e8;
     }
-    .button {
-    background-color: #5097e8; 
+.button {
+    background-color: #666666; 
     border: none;
     color: #515151;
     padding: 4px 16px;
@@ -68,12 +68,12 @@
 }
 
 .btn {
-    background-color: #5097e8; 
-    color: #515151; 
-    border: 2px solid #5097e8;
+    background-color: #2d2d2d; 
+    color: white; 
+    border: 2px solid #2d2d2d;
 }
 
 .btn:hover {
-    background-color: #67adfc;
+    background-color: #666666;
     color: white;
 }
