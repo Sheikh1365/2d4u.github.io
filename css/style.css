@@ -90,6 +90,7 @@
 }
 .logos {
     margin: 0 auto;
+    width: 500px;
     background-color: #aaacaf;
     border: 1px solid #ccc !important;
     border-radius: 16px;
