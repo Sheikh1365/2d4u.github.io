@@ -95,6 +95,7 @@
     padding: 20px;
 }
 .content1 {
+    width: 800px;
     margin: 0 auto;
     background-color: #aaacaf;
     border: 1px solid #ccc !important;
